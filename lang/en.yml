@@ -1,0 +1,40 @@
+en:
+  CMSMain:
+    SAVE: Save
+  ComplexTableField:
+    CLOSEPOPUP: 'Close Popup'
+    SUCCESSADD2: 'Added {name}'
+    SUCCESSEDIT: 'Saved %s %s %s'
+  ComplexTableField.ss:
+    ADDITEM: 'Add %s'
+    NOITEMSFOUND: 'No items found'
+    SORTASC: 'Sort ascending'
+    SORTDESC: 'Sort descending'
+  ComplexTableField_popup.ss:
+    NEXT: Next
+    PREVIOUS: Previous
+  RelationComplexTableField.ss:
+    ADD: Add
+    CSVEXPORT: 'Export to CSV'
+    NOTFOUND: 'No items found'
+  TableField:
+    ISREQUIRED: 'In %s ''%s'' is required'
+  TableField.ss:
+    ADD: 'Add a new row'
+    ADDITEM: 'Add %s'
+  TableListField:
+    CSVEXPORT: 'Export to CSV'
+    PRINT: Print
+    SELECT: 'Select:'
+  TableListField.ss:
+    NOITEMSFOUND: 'No items found'
+    SORTASC: 'Sort in ascending order'
+    SORTDESC: 'Sort in descending order'
+  TableListField_PageControls.ss:
+    DISPLAYING: Displaying
+    OF: of
+    TO: to
+    VIEWFIRST: 'View first'
+    VIEWLAST: 'View last'
+    VIEWNEXT: 'View next'
+    VIEWPREVIOUS: 'View previous'
