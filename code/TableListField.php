@@ -281,8 +281,8 @@ class TableListField extends FormField {
 	
 	public function FieldHolder($properties = array()) {
 		Requirements::javascript(FRAMEWORK_DIR . '/thirdparty/jquery/jquery.js');
-		Requirements::javascript(FRAMEWORK_DIR . '/thirdparty/prototype/prototype.js');
-		Requirements::javascript(FRAMEWORK_DIR . '/thirdparty/behaviour/behaviour.js');
+		Requirements::javascript('legacytablefields/thirdparty/prototype/prototype.js');
+		Requirements::javascript('legacytablefields/thirdparty/behaviour/behaviour.js');
 		Requirements::add_i18n_javascript(FRAMEWORK_DIR . '/javascript/lang');
 		Requirements::javascript('legacytablefields/javascript/TableListField.js');
 		Requirements::css('legacytablefields/css/TableListField.css');

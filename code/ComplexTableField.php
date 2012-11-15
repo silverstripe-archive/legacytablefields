@@ -211,8 +211,8 @@ class ComplexTableField extends TableListField {
 	 * @return String
 	 */
 	public function FieldHolder($properties = array()) {
-		Requirements::javascript(THIRDPARTY_DIR . "/prototype/prototype.js");
-		Requirements::javascript(THIRDPARTY_DIR . "/behaviour/behaviour.js");
+		Requirements::javascript('legacytablefields/thirdparty/prototype/prototype.js');
+		Requirements::javascript('legacytablefields/thirdparty/behaviour/behaviour.js');
 		Requirements::javascript(THIRDPARTY_DIR . "/greybox/AmiJS.js");
 		Requirements::javascript(THIRDPARTY_DIR . "/greybox/greybox.js");
 		Requirements::add_i18n_javascript(FRAMEWORK_DIR . '/javascript/lang');

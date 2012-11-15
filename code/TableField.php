@@ -468,8 +468,8 @@ class TableField extends TableListField {
 	 */
 	public function FieldHolder($properties = array()) {
 		Requirements::javascript(FRAMEWORK_DIR . '/thirdparty/jquery/jquery.js');
-		Requirements::javascript(THIRDPARTY_DIR . "/prototype/prototype.js");
-		Requirements::javascript(FRAMEWORK_DIR . '/thirdparty/behaviour/behaviour.js');
+		Requirements::javascript('legacytablefields/thirdparty/prototype/prototype.js');
+		Requirements::javascript('legacytablefields/thirdparty/behaviour/behaviour.js');
 		Requirements::add_i18n_javascript(FRAMEWORK_DIR . '/javascript/lang');
 		Requirements::javascript('legacytablefields/javascript/TableListField.js');
 		Requirements::javascript('legacytablefields/javascript/TableField.js');
